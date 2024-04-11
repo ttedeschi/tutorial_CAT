@@ -1,0 +1,20 @@
+name: mplhep_env
+channels:
+  - conda-forge
+dependencies:
+  - python==3.8
+  - pip
+  - pandas
+  - root
+  - matplotlib
+  - boost-histogram >=1.1.0
+  - scipy
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - mscorefonts
+  - pip:
+    - hist >=2.4.0
+    - mplhep >=0.3.7
+    - uproot4
+    - scikit-hep-testdata
+    - RISE
