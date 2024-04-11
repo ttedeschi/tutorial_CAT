@@ -4,3 +4,7 @@ channels:
 dependencies:
   - pip
   - root
+  - pip:
+    - hist
+    - uproot
+    - numpy
