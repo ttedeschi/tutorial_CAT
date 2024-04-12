@@ -8,3 +8,4 @@ dependencies:
     - hist
     - uproot
     - numpy
+    - scipy
