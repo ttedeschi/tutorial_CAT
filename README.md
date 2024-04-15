@@ -10,6 +10,7 @@ You can run this tutorial directly on Binder by clicking on the following widget
 In case you want to run this tutorial in your own environment, the requirements are the following libraries:
 ```
 - python3
+- pip
 - ROOT
 - matplotlib
 - scipy
