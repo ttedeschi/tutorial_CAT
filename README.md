@@ -5,3 +5,15 @@ This tutorial covers the main recommendations to produce production-ready CMS pl
 
 You can run this tutorial directly on Binder by clicking on the following widget.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ttedeschi/tutorial_CAT/HEAD?labpath=tutorial_CAT.ipynb)
+
+In case you want to run this tutorial in your own environment, the requirements are the following libraries:
+```
+- python3
+- ROOT
+- matplotlib
+- scipy
+- uproot
+- hist
+```
+Beware that you can pip install directly into modern (Python3-enabled) CMSSW releases using scram-venv!
+For a modern Python3 version (Python3.8 or greater) and PyROOT support in Python3, the minimum release cycle is `CMSSW_11_2_X`.
